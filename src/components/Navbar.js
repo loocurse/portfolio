@@ -1,7 +1,6 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import profilepic from "../img/profilepic.png";
 import { Link, useLocation } from "react-router-dom";
-import styled from "styled-components";
 
 const Navbar = () => {
   const navItems = ["Home", "About", "Portfolio", "Contact"];
@@ -38,7 +37,7 @@ const Navbar = () => {
               id={element}
               onClick={clickHandler}
               className={
-                activeElement.toLowerCase() == element.toLowerCase()
+                activeElement.toLowerCase() === element.toLowerCase()
                   ? "active"
                   : ""
               }

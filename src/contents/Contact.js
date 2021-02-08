@@ -8,13 +8,13 @@ const Contact = () => {
       <div className="hr_line line2">
         <div className="inner2 inner3"></div>
       </div>
-      <div class="con_out">
-        <div class="con_in">
+      <div className="con_out">
+        <div className="con_in">
           <img src={Map} class="co1" alt="Map"></img>
         </div>
       </div>
       <div className="contact-resume">
-        <a href="#">
+        <a href="/">
           <div className="back3">Download Resume</div>
         </a>
         <a href="mailto:lucasngyileang@gmail.com">

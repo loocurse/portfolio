@@ -82,17 +82,4 @@ const Image = styled.img`
   padding-bottom: 3%;
 `;
 
-const PortOut = styled.div`
-  margin-bottom: 8%;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  box-shadow: inset -3px -3px 7px #ffffff73,
-    inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-`;
-
-
 export default PortfolioItem;
