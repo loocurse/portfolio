@@ -3,7 +3,7 @@ import profilepic from "../img/profilepic.png";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const navItems = ["Home", "About", "Portfolio", "Contact"];
+  const navItems = ["Home", "Experience", "Portfolio", "Contact"];
   const URL = useLocation();
   const element = URL.pathname.split("/")[1];
   const [activeElement, setActiveElement] = useState(

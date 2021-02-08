@@ -1,5 +1,6 @@
 import Social from "../components/Social";
 import Map from "../img/map_sg.png";
+import Resume from "../img/resume.pdf"
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact-resume">
-        <a href="/">
+        <a href={Resume} download>
           <div className="back3">Resume</div>
         </a>
         <a href="mailto:lucasngyileang@gmail.com">
