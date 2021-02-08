@@ -1,11 +1,25 @@
 .home {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.typingeffect {
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+.namecard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .namecard {
+    position: relative;
+    top: -15%;
   }
-  .typingeffect {
-    font-size: var(--typing-font);
-    margin-bottom: 30px;
-    color: #6c757d;
-  }
+}

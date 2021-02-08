@@ -30,7 +30,7 @@ const Social = () => {
         </a>
         <a
           className="btnsame btn4"
-          href="https://instagram.com/vikalp._.kaushik"
+          href="https://www.instagram.com/loocurse/"
           target="_blank"
           rel="noopener noreferrer"
         >

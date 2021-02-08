@@ -15,10 +15,10 @@ const Contact = () => {
       </div>
       <div className="contact-resume">
         <a href="/">
-          <div className="back3">Download Resume</div>
+          <div className="back3">Resume</div>
         </a>
         <a href="mailto:lucasngyileang@gmail.com">
-          <div className="back3 back4">Contact Me</div>
+          <div className="back3 back4">Email</div>
         </a>
       </div>
 

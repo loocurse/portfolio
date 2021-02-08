@@ -9,11 +9,11 @@ function PortfolioItem({ title, links, imgsrc, tech, desc }) {
       <MiddleContent className='port-middle-content'>
         <LeftColumn className='port-left-col'>
           <Image src={imgsrc}></Image>
-          <Tech>
+          <div className='tech'>
             {tech.map((item) => (
               <p key={item}>{item}</p>
             ))}
-          </Tech>
+          </div>
         </LeftColumn>
         <RightColumn className='port-right-col'>{desc}</RightColumn>
       </MiddleContent>
@@ -39,25 +39,6 @@ const Header = styled.div`
   }
 `;
 
-const Tech = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  p {
-    min-width: 24%;
-    margin: 1rem 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    color: rgba(245, 108, 109, 1);
-    display: inline-block;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: inset -3px -3px 7px #ffffff73,
-      inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-  }
-`;
 const MiddleContent = styled.div`
   padding: 1rem 1rem;
   display: flex;
