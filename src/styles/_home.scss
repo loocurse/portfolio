@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .typingeffect {
+    font-size: var(--typing-font);
+    margin-bottom: 30px;
+    color: #6c757d;
+  }
