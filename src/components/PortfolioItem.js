@@ -2,25 +2,30 @@ import styled from "styled-components";
 
 function PortfolioItem({ title, links, imgsrc, tech, desc }) {
   return (
-    <div className='port_out'>
+    <div className="port_out">
       <Header>
         <h5>{title}</h5>
       </Header>
-      <MiddleContent className='port-middle-content'>
-        <LeftColumn className='port-left-col'>
+      <MiddleContent className="port-middle-content">
+        <LeftColumn className="port-left-col">
           <Image src={imgsrc}></Image>
-          <div className='tech'>
+          <div className="tech">
             {tech.map((item) => (
               <p key={item}>{item}</p>
             ))}
           </div>
         </LeftColumn>
-        <RightColumn className='port-right-col'>{desc}</RightColumn>
+        <RightColumn className="port-right-col">{desc}</RightColumn>
       </MiddleContent>
 
       <div className="port-links">
         {Object.keys(links).map((key) => (
-          <a href={links[key]} key={links[key]} target="_blank" rel="noopener noreferrer">
+          <a
+            href={links[key]}
+            key={links[key]}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className={`fa fa-${key}`}></i>
           </a>
         ))}
@@ -31,7 +36,7 @@ function PortfolioItem({ title, links, imgsrc, tech, desc }) {
 
 const Header = styled.div`
   padding: 1rem 1rem;
-  border-bottom: 2px solid rgb(200,200,200);
+  border-bottom: 2px solid rgb(200, 200, 200);
   display: flex;
   justify-content: space-between;
   h5 {
@@ -42,7 +47,7 @@ const Header = styled.div`
 const MiddleContent = styled.div`
   padding: 1rem 1rem;
   display: flex;
-  border-bottom: 1px solid rgb(200,200,200);
+  border-bottom: 1px solid rgb(200, 200, 200);
 `;
 
 const RightColumn = styled.div`

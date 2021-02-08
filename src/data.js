@@ -3,8 +3,8 @@ import mall_sim from "./img/mall_sim.png";
 import thymoi from "./img/thymoi.png";
 import telegrambot from "./img/telegrambot.png";
 import ignite from "./img/ignite.png";
-import keras from "./img/keras.png"
-import timeseries from "./img/timeseries.png"
+import keras from "./img/keras.png";
+import timeseries from "./img/timeseries.png";
 
 const ExperienceData = [
   {
@@ -12,28 +12,36 @@ const ExperienceData = [
     insti: "St Andrew's Junior College",
     image:
       "https://www.flaticon.com/svg/vstatic/svg/1940/1940611.svg?token=exp=1612348270~hmac=5ffe386f0c57efdb1614228434ca93eb",
-    desc: "Obtained 2 H2 distinctions",
+    desc: "Science Stream Student",
+    experience:
+      "I took my pre-university education here in these short two years, studying Physics, Mathematics, Chemistry and China-studies in English. Pre-university was my first step into academic rigor. Obtained 2 H2 distinctions for my ",
   },
   {
     year: "2016",
     insti: "SAF MP Command",
     image:
       "https://www.flaticon.com/svg/vstatic/svg/1022/1022331.svg?token=exp=1612348319~hmac=1dce2c8010b808a7d67a196a5fdfbd96",
-    desc: "S2 Branch Specialist",
+    desc: "Security Specialist",
+    experience:
+      "In this role, I audited the security of other camps in the battalion by conducting spot checks and provided advice for how each unit could improve. I would produce a report for each audit for the perusal of commander MP Command. I also provided logistical support for ad-hoc events and branch needs.",
   },
   {
     year: "2018",
     insti: "Singapore University of Technology & Design",
     image:
       "https://www.flaticon.com/svg/vstatic/svg/1940/1940611.svg?token=exp=1612348270~hmac=5ffe386f0c57efdb1614228434ca93eb",
-    desc: "Engineering Systems Design",
+    desc: "UG Scholarship Programme",
+    experience:
+      "I study in a university I am thoroughly proud of. I love the culture in this school: one that challenges you to innovate past your experiences and lead project teams. My field of study explores solving problems using mathematical modelling, which includes courses such as optimisation, machine learning and statisitcal thinking.",
   },
   {
     year: "2019",
     insti: "Cybersecurity Agency of Singapore",
     image:
       "https://www.flaticon.com/svg/vstatic/svg/2910/2910791.svg?token=exp=1612348466~hmac=c0d356a1b4fa286b4517e2ed4e94714c",
-    desc: "Dark Web OSINT Researcher Intern",
+    desc: "Cyber Threat Analyst Intern",
+    experience:
+      "I was given the task of writing a report that covers the landscape of the DDW (Deep and Dark Web), including the players and actions involved in the field. I gave a presentation to the Deputy Chief of CSA as well as threat monitoring teams in an effort to raise aware of the consequences of the DDW. ",
   },
   {
     year: "2020",
@@ -41,6 +49,8 @@ const ExperienceData = [
     image:
       "https://www.flaticon.com/svg/vstatic/svg/2910/2910791.svg?token=exp=1612348466~hmac=c0d356a1b4fa286b4517e2ed4e94714c",
     desc: "Full Stack Developer Intern",
+    experience:
+      "I was part of a team to build an energy dashboard. The process started out by conducting academic research on the existing literature. Afterwards, we came up with prototypes to do UIUX interviews and focus group discussions. From there, we started development work by building the front-end using Plotly and the backend using Django. I helped by buildling a few features and also optimised memory usage of the backend processes by exporting client-side rendering to backend the PostgreSQL server.",
   },
 ];
 
@@ -62,7 +72,7 @@ const SDProjectsData = [
     desc:
       "Buildling a dashboard for office users to reduce energy usage. I was working together with a brilliant team where my role was to build graphs, conduct UI/UX interviews and to manage the data processing on the backend.",
     imgsrc: plug_mate,
-    tech: ["Django", "Plotly", "React JS", "UI/UX"],
+    tech: ["Django", "Plotly", "PostgreSQL", "UI/UX"],
     links: {
       github: "https://github.com/zeynepduygutekler/plug-mate",
       youtube: "https://www.youtube.com/watch?v=2Ud_u6VYUVo",
@@ -74,6 +84,16 @@ const SDProjectsData = [
       "I built this as part of a web development course learning react and redux. Learnt how to manage states using a redux store and reducers, asychronously draw data from an API here and generate multiple react components.",
     imgsrc: ignite,
     tech: ["React JS", "Redux", "Framer-motion"],
+    links: {
+      github: "https://github.com/zeynepduygutekler/plug-mate",
+    },
+  },
+  {
+    title: "Neumorphism Portfolio Site",
+    desc:
+      "A chance for me to express my love for this UI trend before it fades. Built with inspiration from other neumorphism templates and hosted using netlify.",
+    imgsrc: ignite,
+    tech: ["Netlify", "React JS", "SASS"],
     links: {
       github: "https://github.com/zeynepduygutekler/plug-mate",
     },
@@ -92,7 +112,7 @@ const SDProjectsData = [
   {
     title: "Thymoi",
     desc:
-      "OurCreated a Smart Locker System as part of our 1D Smart Campus Group Project for 10.009 The Digital World module at SUTD. The Smart Locker System is a dynamic storage solution that automates the process of short-term locker usage. It aims to make use of cloud database information to update locker availability.",
+      "Our team implemented a Smart Locker System as part of our 1D Smart Campus Group Project for 10.009 The Digital World module at SUTD. The Smart Locker System is a dynamic storage solution that automates the process of short-term locker usage and makes use of cloud database information to update locker availability.",
     imgsrc: thymoi,
     tech: ["Python", "Kivy GUI", "Linux", "Firebase"],
     links: {},
@@ -120,6 +140,5 @@ const DAProjectsData = [
       github: "https://github.com/loocurse/tweet-sentiment-analysis",
     },
   },
-  
 ];
 export { ExperienceData, SDProjectsData, DAProjectsData };

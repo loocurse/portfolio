@@ -43,22 +43,20 @@ body {
 }
 
 .condiv {
-  width: 65%;
+  width: 70%;
   height: 90%;
   position: absolute;
   top: 4%;
   left: 25%;
   border-radius: 30px;
   line-height: 1;
-  // padding-left: 10px;
-  // padding-right: 10px;
   background: #e6e7ee;
-  // border: 0.0625rem solid #b8bbc0;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .subtopic {
@@ -148,7 +146,7 @@ mark {
   .condiv {
     top: 15%;
     left: 5%;
-    width: 100%;
+    width: 90%;
     height: 80%;
   }
 }
