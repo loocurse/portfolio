@@ -1,5 +1,3 @@
-import styled from "styled-components";
-
 function PortfolioItem({ title, links, imgsrc, tech, desc }) {
   return (
     <div className="port_out">

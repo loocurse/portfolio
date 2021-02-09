@@ -1,9 +1,7 @@
 .line3 {
-  position: relative;
-  top: 45%;
-  left: 47%;
+  position: static;
   text-align: center;
-  margin: 0;
+  margin-top: 5%;
 }
 .inner3 {
   margin: 3px 15px;
@@ -12,30 +10,26 @@
   height: 5px;
   border-radius: 5px;
 }
-
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .con_out {
-  position: absolute;
-  width: 88%;
-  top: 13%;
-  left: 6%;
-  height: 35%;
+  position: static;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   border-radius: 10px;
   box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 .con_in {
-  width: 98%;
-  height: 90.5%;
-  margin: 8px 8px;
   border-radius: 10px;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(18, 18, 19, 0.288);
-}
-
-.contact-me {
-  border: 1px solid rgba(0,0,0,0);
-  padding: 0.5rem;
-  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
-  border-radius: 3px;
-  font-size: 2rem;
+  margin: 5px;
+  img {
+    object-fit: fill;
+  }
 }
 
 .co1 {
@@ -44,24 +38,23 @@
   border-radius: 10px;
 }
 .contact-resume {
-  position: relative;
-  top: 40%;
-  margin: 0;
+  margin-top: 3%;
   width: 50%;
   text-align: center;
-  left: 25%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: stretch;
+  align-items:stretch;
+  a {
+    border-radius: 50%;
+  }
 }
 
 .back3 {
   width: 210px;
   height: 25px;
   margin-top: 1rem;
-  padding: 1rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,14 +71,19 @@
 
 @media only screen and (max-width: 650px) {
   .contact-resume {
-    top: 35%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 5%;
   }
-  .back3 {
-    width: 100px;
-    height: 20px;
-    font-size: 1.2rem;
+  .con_out {
+    height: 25%;
+    margin-bottom: 5%;
+  }
+  .con_in {
+    height: 100%;
+    // margin: 3%;
+    img {
+      object-fit: cover;
+      object-position: 37% 100%;
+    }
   }
 }
