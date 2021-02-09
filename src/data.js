@@ -13,7 +13,7 @@ const ExperienceData = [
     insti: "St Andrew's Junior College",
     desc: "Science Stream Student",
     experience:
-      "I took my pre-university education here in these short two years, studying Physics, Mathematics, Chemistry and China-studies in English. Pre-university was my first step into academic rigor. Obtained 2 H2 distinctions for my ",
+      "I took my pre-university education here in these short two years, studying Physics, Mathematics, Chemistry and China-studies in English. Pre-university was my first step into academic rigor. I obtained 2 H2 distinctions for my exam result!",
   },
   {
     year: "2016",
@@ -116,7 +116,7 @@ const DAProjectsData = [
   {
     title: "Securities Volatility Time Series Analysis",
     desc:
-      "Project with AXA Investment Managers to build a company-level predictive model to identify shares with low future volatility by using a company's fundamental data with trailing returns. Utilised data exploration libraries such as pandas profiling to identify possible feature engineering opportunities. Identified autocorrelation opportunity to run time series analysis. Compared to a baseline moving average model, our ARIMA model outperformed 90% baseline models.",
+      "Project with AXA Investment Managers to build a company-level predictive model to identify shares with low future volatility by using a company's fundamental data with trailing returns. Utilised data exploration libraries such as pandas profiling to identify possible feature engineering opportunities. Identified autocorrelation opportunity to run time series analysis. Compared to a baseline moving average model, our ARIMA model outperformed it 87% of the time.",
     imgsrc: timeseries,
     tech: ["Time Series", "Pandas", "ARIMA"],
     links: {
