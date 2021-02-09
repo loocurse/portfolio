@@ -10,6 +10,40 @@
   padding-top: 0;
 }
 
+.port-middle-content {
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  img {
+    height: 30vh;
+    width: 80%;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 3%;
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.port-item-header {
+  padding: 1rem 1rem;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  display: flex;
+  justify-content: space-between;
+  h5 {
+    font-size: 1.3rem;
+  }
+}
+
 .port-subtopic-header {
   display: flex;
   flex-direction: column;
@@ -17,15 +51,6 @@
   align-items: center;
   padding: 3rem 0rem 1rem 0rem;
 }
-// .port_out {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   border-radius: 10px;
-//   box-shadow: inset -3px -3px 7px #ffffff73,
-//     inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-// }
 .port_out {
   margin-bottom: 8%;
   width: 70%;
@@ -34,8 +59,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  box-shadow: inset -3px -3px 7px #ffffff73,
-    inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
 }
 
 .port-links {
@@ -88,8 +112,8 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  p {
-    min-width: 24%;
+  span {
+    // min-width: 20%;
     margin: 1rem 1rem;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -97,8 +121,7 @@
     display: inline-block;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: inset -3px -3px 7px #ffffff73,
-      inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
   }
 }
 
@@ -125,8 +148,9 @@
     padding-top: 1rem;
   }
   .tech {
-    p {
+    span {
       font-size: 0.8rem;
+      min-width: 20%;
     }
   }
 }
