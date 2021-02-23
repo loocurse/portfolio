@@ -3,12 +3,12 @@
   "name": "Portfolio",
   "icons": [
     {
-      "src": "portfolio.svg",
+      "src": "/public/portfolio.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "portfolio.svg",
+      "src": "/public/portfolio.svg",
       "type": "image/png",
       "sizes": "512x512"
     }
